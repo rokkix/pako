@@ -1,0 +1,90 @@
+/*Title:   Custom Css File
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+I WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+/*	Grid >> 12 Columns*/
+.grid_1 {width:6.333%;}.grid_2 {width:14.667%;}.grid_3 {width:23.0%;}.grid_4 {width:31.333%;}.grid_5 {width:39.667%;}.grid_6 {width:48.0%;}.grid_7 {width:56.333%;}.grid_8 {width:64.667%;}.grid_9 {width:73.0%;}.grid_10 {width:81.333%;}.grid_11 {width:89.667%;}.grid_12 {width:98.0%;}.grid_1_5 {width:18.0%;}.grid_2_5 {width:38.0%;}.grid_3_5 {width:58.0%;}.grid_4_5 {width:78.0%;}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_1_5, .grid_2_5, .grid_3_5, .grid_9, .grid_10, .grid_11, .grid_12 {display:inline; float: left; position: relative; margin-left: 1%; margin-right: 1%;}
+/* Contener */
+.fullzero {width: 100%; padding: 0px 0; overflow: hidden;}
+.full_10 {width: 100%; padding: 10px 0; overflow: hidden;}
+.full_20 {width: 100%; padding: 20px 0; overflow: hidden;}
+.full_30 {width: 100%; padding: 30px 0; overflow: hidden;}
+.full_60 {width: 100%; padding: 60px 0; overflow: hidden;}
+.boxed {margin: 0 auto; max-width: 1024px; position: relative;}
+/* Block */
+.inline {display: inline-block; display: -moz-inline-block; vertical-align: baseline;}.clear {clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0;}.clearfix:before, .clearfix:after {content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0;}.clearfix:after {clear: both;}.clearfix {zoom: 1;}.display-none, .display-hide {display: none;}
+/*TEXT ALIGHT*/
+.center {text-align: center;}.left {text-align: left;}.right {text-align: right;}.mac {margin: auto;}.no-padding{padding:0 !important;}.no-margin{margin:0 !important;}.f-left{float:left;}.f-right{float: right;}
+/*MARGIN*/
+.down-50 {margin-bottom: 50px;}.down-40 {margin-bottom: 40px;}.down-30 {margin-bottom: 30px;}.down-25 {margin-bottom: 25px;}.down-20 {margin-bottom: 20px;}.down-15 {margin-bottom: 15px;}.down-10 {margin-bottom: 10px;}.down-5 {margin-bottom: 5px;}.up-50 {margin-top: 50px;}.up-40 {margin-top: 40px;}.up-30 {margin-top: 30px;}.up-25 {margin-top: 25px;}.up-20 {margin-top: 20px;}.up-15 {margin-top: 15px;}.up-10 {margin-top: 10px;}.up-5 {margin-top: 5px;}	
+
+
+
+
+
+
+
+.red-small-line-inner {
+    height: 80px;
+    background-position: right -770px;
+    padding: 0 48px 0 0;
+    line-height: 80px;
+    color: #fff;
+}
+/*slider*/
+.c-slider {background:url(../images/slider.jpg)/*tpa=http://bild.remont-kw.ru/images/slider.jpg*/ center no-repeat; margin-top: 80px; height:auto; background-size:cover;}
+.line{background:url(img/lines.png)/*tpa=http://bild.remont-kw.ru/images/lines.png*/ no-repeat;display:inline-block}
+
+.red-line{height:86px;background-position:left top;padding:0 0 0 48px;margin:2px 0; line-height:80px;color:#fff;font-family: 'robotoblack';text-transform: uppercase;font-size: 30px;}  
+.red-line-inner{height: 86px;background-position:right -90px;padding: 23px 48px 0 0;font-size: 62px;color: #fff;font-family: 'robotoblack';}
+.red-line-inner2{height: 86px;background-position:right -90px;padding:0 48px 0 0;}
+.green-line{height:64px;background-position:left -180px;padding:0 0 0 48px;margin:2px 0;line-height:64px;color:#fff;} 
+.green-redd{height:86px;background-position:left top;padding:0 0 0 48px;margin:2px 0;line-height:64px;color:#fff;} 
+.green-line.osx{line-height:78px} 
+.green-line-inner{height:64px;background-position:right -250px;padding:0 48px 0 0}
+.black-bg{display:inline-block;background:#201c1a;color:#fff;padding: 4px 15px 5px;margin:2px 0;font-size: 30px;margin-top: 100px;font-family: 'robotobold';text-transform: uppercase;}
+.black-bg2{display:inline-block;background:#201c1a;color:#fff;padding: 4px 15px 5px;margin:2px 0;font-size: 26px;font-family: 'roboto_condensedregular';}
+.black-bg3{display:inline-block;background:#201c1a;color:#fff;padding: 6px 15px 4px;margin:2px 0;font-size: 30px;font-family: 'robotobold';}
+.yellow-bg{display:inline-block;background:#f0cc19;padding:1px 5px 2px;margin:2px 0}
+.btn-block{padding: 80px 0 100px;}
+
+
+/*work*/
+#ourwork {background: #F2F2F2;}
+.blue-line{height:80px;background-position:left -320px;padding:0 0 0 48px;margin:2px 0;line-height:80px;color:#fff;font-family: 'robotoblack';text-transform: uppercase;font-size: 30px;} 
+.blue-line.osx{line-height:94px} 
+.blue-line-inner{height:80px;background-position:right -410px;padding:0 48px 0 0;}
+.standart .section-title:before, .standart .section-title:after {border-top: 2px solid #F58021;display: block;height: 1px;content: " ";width: 50px;position: absolute;left: -60px;top: 50%;}
+.standart .section-title:after {right: -60px;left: auto;}
+.standart .section-title {font-size:40px;margin-bottom: 20px;color: #1d1d1f;}
+.standart .section-title-mini {font-family: 'robotoregular';font-weight: 700;color: #1B2024;font-size: 20px;margin-bottom: 40px;}
+#portfolio-filters ul li {font-family: 'robotoregular';}
+#portfolio-filters ul li.filter-item.is-active {border: solid 1px #201C1A;}
+.filter-item.is-active {background: #201C1A; color: #fff;}
+#ourwork .portfolio-wrapper .portfolio-item .port_text a {color: #000;text-transform: uppercase;font-size: 14px;font-weight: 400;font-family: 'robotomedium';text-align: left;}
+#ourwork .portfolio-wrapper .portfolio-item .port_text {color: #201C1A;font-size: 14px;font-weight: 400;text-align: left;font-family: 'robotoregular';}  
+.img_works {position: absolute;width: 50px;height: 50px;right: 10px;top: 10px;background:url(../images/img_plus.png)/*tpa=http://bild.remont-kw.ru/images/img_plus.png*/ center no-repeat;}  
+
+
+
+
+
+/*РѕС‚ Р° РґРѕ СЏ*/
+.bold-box1 {font-size: 28px; color: #201c1a; font-family: 'robotolight';line-height: 1.4em;}
+.bold-box2 {font-size: 34px; color: #201c1a; font-family: 'robotomedium';}
+
+
+.spectrum .common-title {padding-top: 50px; margin-bottom: 60px;}
+.spectrum .common-title span {color: white;}
+.spectrum .rules-lists {overflow: hidden; color: #201C1A;}
+.spectrum .rules-lists li {display: block; font-size: 18px; min-height: 25px; margin-bottom: 19px; background: url(../img/tick.png) no-repeat;}
+.spectrum .rules-lists ul {display: inline-block;}
+.spectrum .rules-lists ul {text-align: left; padding-left: 10px;}
+.spectrum .rules-lists ul li {padding-left: 72px; background-position: 33px center; font-family: 'robotoregular';}
+.spectrum h3 {font-size: 26px; font-family: 'robotoregular'; margin-top: 10px; text-align: center; color: #201C1A;margin-bottom: 40px;}
+.rules {padding-top: 46px; font-size: 0; margin-bottom: 23px;}
+.green_head {font-family: 'robotoblack';text-transform: uppercase;margin-top: 10px;display: block;font-size: 30px;color: #16708E;}
+.box3-videobox {margin: 0 auto; height: 500px; padding:40px 40px 0px;}
+.box3-play-bt {text-align: center;}
+.box3-play-bt:hover {zoom:1;}

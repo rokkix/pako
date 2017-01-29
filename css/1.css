@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+margin: 0;
+}
+body {	
+	padding:0;
+	margin:0;
+	background:#F0F0F0;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	}
+html {position:relative; min-height:100%;}	
+body {height: 100%;}
+
+#header {width:100%; height:50px; background:#383838; color:#fff;}
+
+#wrapper { 
+	position: relative;
+	min-height: 100%;
+}
+#container{
+	padding-bottom:120px;/*Примерно 2 рамера footer, чтобы он не наезжал на контент при узком окне браузера*/
+	padding-top:30px;
+}
+
+#footer {
+		height: 64px;
+		border-top:1px solid #ccc;
+		background: #383838;
+		color: #919191;
+		padding: 10px 0;
+		position:absolute;
+		bottom:0;
+		width:100%;
+
+	}
+
+	
+
+
+
+
+	
